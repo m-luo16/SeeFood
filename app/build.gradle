@@ -36,6 +36,6 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     implementation 'com.github.medyo:fancybuttons:1.9.0'
     implementation "com.android.support:appcompat-v7:27.1.1"
-
+    implementation 'com.google.cloud:google-cloud-vision:1.59.0'
 
 }
