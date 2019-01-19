@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SeeFood</string>
+    <string name="calories_consumed">Calories Consumed:</string>
+    <string name="zero">0</string>
+    <string name="net_calories">Net Calories:</string>
+    <string name="calories_lost">Calories Lost:</string>
 </resources>
