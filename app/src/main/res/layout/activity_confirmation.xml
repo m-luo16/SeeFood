@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".ConfirmationActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="59dp"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="57dp"
+        android:text="Retake"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/divider"
+        tools:layout_editor_absoluteX="0dp" />
+
 </android.support.constraint.ConstraintLayout>
